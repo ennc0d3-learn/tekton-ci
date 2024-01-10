@@ -23,13 +23,13 @@ spec:
       secretName: dockerhub-creds
   params:
   - name: repoUrl
-    value: https://github.com/xxxxxx/instavote.git
+    value: https://github.com/ennc0d3-learn/instavote.git
   - name: revision
     value: main
   - name: sparseCheckoutDirectories
     value: /result/
   - name: imageUrl
-    value: xxxxxx/result
+    value: ennc0d3/result
   - name: pathToContext
     value: result
 
